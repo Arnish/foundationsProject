@@ -1,0 +1,198 @@
+.everything {
+    display: flex;
+    flex-direction: column;
+}
+
+.headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: wheat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color:black;
+}
+
+.marginTopLeft {
+    margin-left: 300px;
+}
+.marginTopRight {
+    margin-right: 300px;
+}
+.topOfPage,
+.description,
+.boxInFour {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.topLinks {
+    display: flex;
+    gap: 20px;
+}
+
+a:link,
+a:active,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: #1F2937;
+}
+
+.theTop {
+    background-color: #1F2937;
+    border: solid lightblue;
+    border-radius: 20px;
+    border-width: 10px;
+    border-style: double;
+    color:white;
+    
+}
+
+.textOne {
+    font-weight: lighter;
+}
+.topOfPage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intros {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.signed,
+.joinNow {
+    width: 100px;
+    border-radius: 7px;
+    padding: 5px;
+    border-width: 1px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.introRoger {
+    height: 200px;
+    width: auto;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*------------------NEXT SECTION-------------------*/
+
+.twoOfFour {
+    background-color: white;
+    border-radius: 20px;
+    border: solid lightblue;
+    border-right-style: double;
+    border-left-style: double;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    padding: 10px;
+}
+
+.textFave {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+}
+
+.top4Broken {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.top4 {
+    width:200px;
+    height: 150px;
+    border-radius: 10px;
+    border-style: inset;
+    border-color: #3882F6;
+}
+
+figcaption {
+    text-align: center;
+}
+
+/*------------------NEXT SECTION-------------------*/
+
+
+.threeOfFour {
+    display: flex;
+    background-color: #eee;
+    height: 275px;
+    border-radius: 20px;
+    border: solid lightblue;
+    border-left-style: double;
+    border-right-style: double;
+    border-left-width: 10px;
+    border-right-width: 10px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: lighter;
+}
+
+
+/*------------------NEXT SECTION-------------------*/
+
+.fourOfFour {
+    height: 275px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: solid lightblue;
+    border-left-style: double;
+    border-right-style: double;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boxInFour {
+    display: flex;
+    height: 100px;
+    width: 900px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+}
+
+.textFour {
+    margin-left: 20px;
+}
+
+.joinNow {
+    margin-right: 20px;
+}
+
+.credits {
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid lightblue;
+    border-left-style: double;
+    border-right-style: double;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    width: 98.65%;
+    color: #1F2937;
+}
